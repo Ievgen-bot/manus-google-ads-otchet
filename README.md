@@ -88,7 +88,7 @@ manus-google-ads-otchet/
 
 ## Requirements
 
-- A Manus account (the Google Ads connector is currently in Beta and rolling out gradually).
+- A Manus account (the Google Ads connector is currently in Beta and rolling out gradually). New to Manus? Register here: https://manus.im/share/6V79Hl9i0uWXYR87cT5AHJ
 - Google Ads account access (owner or admin of the ad account).
 - Search campaigns — Performance Max, Demand Gen, YouTube, Shopping and Discovery are out of scope by design.
 
