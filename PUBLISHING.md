@@ -44,7 +44,7 @@ report-automation
 ## 4. Finalize the README link
 
 In `README.md`, replace `Ievgen-bot` in the import URL with your GitHub username/org, commit. The one-click install link then works:
-`https://manus.im/import-skills?githubUrl=https%3A%2F%2Fgithub.com%2F<you>%2Fmanus-google-ads-otchet%2Ftree%2Fmain%2Fskills%2Fgoogle-ads-otchet`
+`https://manus.im/import-skills?githubUrl=https%3A%2F%2Fgithub.com%2F<you>%2Fmanus-google-ads-otchet`
 
 ## 5. Sanity checks
 

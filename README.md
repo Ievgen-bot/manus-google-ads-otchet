@@ -29,7 +29,7 @@ Business owners who run their own Google Ads and are tired of the Monday reporti
 Two steps, all inside Manus (~1 minute + one-time account connection):
 
 1. **Install the skill.** Open in Manus (or Manus → Settings → Skills → Import from GitHub):
-   `https://manus.im/import-skills?githubUrl=https%3A%2F%2Fgithub.com%2FIevgen-bot%2Fmanus-google-ads-otchet%2Ftree%2Fmain%2Fskills%2Fgoogle-ads-otchet`
+   `https://manus.im/import-skills?githubUrl=https%3A%2F%2Fgithub.com%2FIevgen-bot%2Fmanus-google-ads-otchet`
    Confirm the import (~10–30 seconds).
 2. **Connect your ad account.** Manus → Add connectors → **Google Ads (Beta)** → Connect → sign in with the Google account that owns the ad account. Step-by-step: [docs/google-ads-connector-ru.md](docs/google-ads-connector-ru.md) (in Russian).
 
@@ -73,19 +73,17 @@ The skill follows a fixed protocol (`skills/google-ads-otchet/SKILL.md`):
 manus-google-ads-otchet/
 ├── README.md
 ├── LICENSE                      # MIT
+├── SKILL.md                      # skill playbook (Russian) — must be at repo root for Manus import
+├── references/                   # methodology (Russian)
+│   ├── principles.md             # 5 analysis principles
+│   ├── diagnosis-catalog.md      # 10 diagnostic patterns
+│   ├── restrictions.md           # hard scope limits
+│   ├── data-queries.md           # what to pull via the connector
+│   └── report-template.md        # 8-block report structure
+├── docs/
+│   └── google-ads-connector-ru.md # connector setup guide (Russian)
 ├── .gitignore
-├── PUBLISHING.md                 # repo setup checklist (description, topics)
-├── skills/
-│   └── google-ads-otchet/
-│       ├── SKILL.md              # skill playbook (Russian)
-│       └── references/           # methodology (Russian)
-│           ├── principles.md         # 5 analysis principles
-│           ├── diagnosis-catalog.md  # 10 diagnostic patterns
-│           ├── restrictions.md       # hard scope limits
-│           ├── data-queries.md       # what to pull via the connector
-│           └── report-template.md    # 8-block report structure
-└── docs/
-    └── google-ads-connector-ru.md    # connector setup guide (Russian)
+└── PUBLISHING.md                 # repo setup checklist (description, topics)
 ```
 
 ## Requirements
