@@ -1,0 +1,13 @@
+# Skill + docs repo — nothing to build, nothing to ignore at runtime.
+# Kept minimal so `git status` stays clean on any machine.
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Local test artifacts (never commit real account data)
+*.csv
+*.xlsx
+*report*.pdf
